@@ -188,6 +188,8 @@
 
     unpatch: function() {
       _root.SpeechRecognition = _productionVersion;
-    }
+    },
+
+    SpeechRecognition: newSpeechRecognition
   };
 }));
